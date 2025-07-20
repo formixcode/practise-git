@@ -1,0 +1,42 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.obj
+*.lib
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependency directories
+node_modules/
+bower_components/
+vendor/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Package manager files
+package-lock.json
+
+# Test and coverage files
+/coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
